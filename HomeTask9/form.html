@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="" id="myFirstForm">
+      <div>
+        <label for="name">Enter your name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="password">Enter password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="date">Enter your date of birthday</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <div>
+        <label for="sex"> Choose Your Sex</label>
+        <div class="sex">
+          <input type="radio" id="male" name="sex" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="sex" />
+          <label for="female">Female</label>
+        </div>
+      </div>
+      <div>
+        <label for="age">Enter Your Age</label>
+        <input type="number" name="age" id="age" min="0" max="100" />
+      </div>
+      <div>
+        <label for="about"> Discription </label>
+        <textarea name="about" id="about" cols="80" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit" id="submit" />
+      </div>
+    </form>
+    <div class="link"><a href="./filter_form.html">Link to filter form</a></div>
+  </body>
+</html>

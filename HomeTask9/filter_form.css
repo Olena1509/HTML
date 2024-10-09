@@ -1,0 +1,54 @@
+form {
+  margin: 0 auto;
+  border: 1px solid gray;
+  background-color: rgba(175, 175, 175, 0.3);
+  padding: 15px;
+  margin-top: 15px;
+  width: 500px;
+}
+
+input {
+  background-color: rgba(232, 246, 229, 0.8);
+  border: 0;
+  padding: 5px 10px;
+
+  font-size: 16px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.power,
+.brand {
+  display: block;
+  padding-left: 15px;
+}
+
+.title_power,
+.title_brand,
+.model_name {
+  font-size: 20px;
+}
+
+#product,
+#sort,
+#braFound {
+  background-color: rgba(113, 134, 109, 0.8);
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+#submit {
+  background-color: rgb(178, 209, 172);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#submit:hover {
+  background-color: rgb(113, 133, 109);
+}
