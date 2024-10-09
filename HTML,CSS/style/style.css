@@ -1,0 +1,34 @@
+h1{
+background-color: azure;
+color: aqua;
+padding: 30px;
+margin: 25px auto;
+border: 5px dotted blue;
+border-radius: 15px;
+}
+
+.firstclass{
+    padding: 30px 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: bisque;
+    border-left: 7px solid rgb(4, 58, 25);
+    border-right: 7px solid rgb(4, 58, 25);
+
+}
+
+.secondclass{
+    padding: 30px 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: rgb(22, 187, 88);
+}
+
+#cool{
+    color: brown;
+    font-style: oblique;
+    font-size: small;
+    font-weight: 800;
+    border-top: 10px dashed rgb(220, 37, 119);
+
+}
