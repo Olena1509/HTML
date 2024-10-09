@@ -1,0 +1,54 @@
+nav{
+    height: 50px;
+    width: 800px;
+}
+
+.navigation{
+    background-color: aquamarine;
+    padding: 15px 20px;
+}
+
+a{
+    margin: 0 25px;
+}
+
+nav>a {
+color: rgb(230, 28, 28);
+}
+
+.list1,.list3{
+background-color: rgb(236, 167, 198);
+}
+
+ol li{
+font-style: italic;
+font-weight: 900;
+}
+
+ol>li {
+    color: red;
+}
+
+ul>li{
+    color: blue;
+}
+
+.list2~ul{
+    text-decoration: underline;
+}
+
+a:hover{
+color: rgb(22, 224, 143);
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+li:first-of-type + li {
+    color: rgb(23, 237, 119);
+  }
+
+ul:last-child{
+    text-transform: lowercase;
+}
