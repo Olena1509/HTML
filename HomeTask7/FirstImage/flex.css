@@ -1,0 +1,25 @@
+.wrap {
+  height: 100vh;
+  width: 100vw;
+  background-color: orange;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.flexdiv {
+  width: 25%;
+  height: 60%;
+}
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: rgb(25, 92, 225);
+}
+
+.div4 {
+  background-color: black;
+}

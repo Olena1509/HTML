@@ -1,0 +1,178 @@
+header {
+  height: 30vh;
+  width: 100vw;
+}
+span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(160, 61, 122);
+}
+
+.white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 70%;
+  background-color: white;
+}
+.black {
+  display: flex;
+  width: 80%;
+  height: 50%;
+  background-color: black;
+}
+
+.wrap {
+  position: relative;
+  height: 20vh;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+.flexdiv {
+  width: 25%;
+  height: 85%;
+}
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: orange;
+}
+.div3 {
+  background-color: turquoise;
+}
+
+.div4 {
+  background-color: yellow;
+}
+.wrap2 {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.green,
+.lightblue,
+.darkblue {
+  position: relative;
+  width: 33%;
+  height: 100%;
+  display: flex;
+}
+.green {
+  background-color: green;
+  align-items: end;
+  justify-content: center;
+}
+.lightblue {
+  background-color: aqua;
+  align-items: end;
+}
+.darkblue {
+  background-color: blue;
+  justify-content: center;
+  align-items: flex-end;
+}
+.orangered {
+  position: relative;
+  background-color: orangered;
+  width: 85%;
+  height: 85%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.plum {
+  position: relative;
+  background-color: plum;
+  width: 50%;
+  height: 85%;
+}
+.yellowgreen {
+  position: relative;
+  background-color: yellowgreen;
+  width: 50%;
+  height: 85%;
+}
+
+.brown {
+  background-color: brown;
+  width: 33.3%;
+  height: 85%;
+}
+.darkyellow {
+  position: relative;
+  display: flex;
+  align-items: end;
+  background-color: rgb(246, 246, 51);
+  width: 33.3%;
+  height: 85%;
+}
+.middleorange {
+  background-color: orange;
+  width: 33.3%;
+  height: 85%;
+}
+.orangesmall {
+  position: relative;
+  background-color: orange;
+  width: 50%;
+  height: 85%;
+}
+.redsmall {
+  position: relative;
+  background-color: red;
+  width: 50%;
+  height: 35%;
+}
+
+.bluesmall {
+  background-color: rgb(36, 193, 228);
+  width: 33.3%;
+  height: 30%;
+}
+.yellowsmall {
+  background-color: yellow;
+  width: 33.3%;
+  height: 50%;
+  margin-bottom: 30px;
+}
+.orangeend {
+  display: flex;
+  align-items: end;
+  background-color: orange;
+  width: 33.3%;
+  height: 45%;
+  margin-bottom: 30%;
+}
+
+.black1 {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  height: 15%;
+  width: 80%;
+  margin-bottom: 20%;
+}
+.black2 {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  height: 15%;
+  width: 80%;
+  margin-bottom: 60%;
+}

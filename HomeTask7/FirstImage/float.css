@@ -1,0 +1,25 @@
+.wrap {
+  height: 100vh;
+  width: 100vw;
+  background-color: orange;
+  margin: 10px;
+}
+.floatdiv {
+  margin-top: 150px;
+  width: 25%;
+  height: 60%;
+  float: left;
+}
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: rgb(25, 92, 225);
+}
+
+.div4 {
+  background-color: black;
+}
